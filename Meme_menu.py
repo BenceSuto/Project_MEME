@@ -12,6 +12,8 @@ def choose():
     elif option == "3":
         hymn.start_module()
     elif option == "4":
+        random_meme_sound.start_module()
+    elif option == "5":
         virus.start_module()
     elif option == "0":
         sys.exit(0)
@@ -21,11 +23,12 @@ def choose():
 
 def handle_menu():
     options = ["Best Game Ever",
-               "9gag dank memes",
+               "9gag Dank Memes",
+               "Random Meme Sound For Random Fun"
                "Russian Hymn",
                "Virus"]
 
-    Meme_UI.print_menu("Meme menu", options, "Exit program")
+    Meme_UI.print_menu("Meme Menu", options, "Exit Program")
 
 
 def main():
